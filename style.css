@@ -1,0 +1,112 @@
+/* Basic Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation */
+.header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 30px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 17px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    background: #007bff;
+    color: white;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.hero-btn {
+    margin-top: 15px;
+}
+
+/* Features */
+.features {
+    padding: 50px 30px;
+    text-align: center;
+}
+.feature-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 7px;
+    width: 250px;
+}
+
+/* Pricing */
+.pricing {
+    padding: 50px 30px;
+    text-align: center;
+}
+.pricing-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pricing-card {
+    background: white;
+    padding: 25px;
+    border-radius: 7px;
+    width: 200px;
+}
+.popular {
+    border: 2px solid #007bff;
+}
+
+/* FAQ */
+.faq {
+    padding: 50px 30px;
+}
+.faq-item {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+}
